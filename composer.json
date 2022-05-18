@@ -9,6 +9,11 @@
   "require": {
     "typo3/cms-core": "^11.5"
   },
+  {
+    "config": {
+        "vendor-dir": "public/typo3conf"
+    }
+  },
   "extra": {
     "typo3/cms": {
       "cms-package-dir": "public",
