@@ -1,0 +1,20 @@
+{
+  "name": "mittwald/typo3-mwcachingconfig",
+  "description": "Add MwCachingConfig",
+  "homepage": "https://www.mittwald.de",
+  "license": "GPL-2.0-or-later",
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "type": "typo3-cms-extension",
+  "require": {
+    "typo3/cms-core": "^11.5"
+  },
+  "extra": {
+    "typo3/cms": {
+      "cms-package-dir": "public",
+      "extension-key": "typo3-mwcachingconfig",
+      "app-dir": ".Build",
+      "web-dir": ".Build/public"
+    }
+  }
+}
